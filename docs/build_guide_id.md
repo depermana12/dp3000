@@ -37,6 +37,23 @@ Ada 6 lembar akrilik yang akan ditumpuk, urutan pertama dimulai dari kiri atas s
 
 ![](https://i.imgur.com/Tf542vYh.jpg)
 
+## Oled display
+
+![dp3000 macropad](https://i.imgur.com/lirC7oLh.jpg)
+
+dp3000 secara bawaan mendukung display oled berukuran 128x32. Pengguna dapat mengganti modul oled bawaan ke oled ukuran 128x64, perubahan yang diperlukan :
+
+1. penyolderan pin header female tipe bulat pada pcb dp3000, dan menggunakan pin bekas dioda atau yang seukuran pada pin oled, sehingga level ketinggiannya sama seperti oled bawaan
+2. tambahkan kode `#define OLED_DISPLAY_128X64` pada `config.c` 
+3. pada `dp3000.c` ganti `oled_write_raw_P(dp3000_logo, sizeof(dp3000_logo));` menjadi:
+
+```
+oled_set_cursor(0, (oled_max_lines() - 4) / 2);
+oled_write_raw_P(dp3000_logo, sizeof(dp3000_logo));
+ ```
+4. compile dan flash
+
+Atau silahkan langsung flash firmware dp3000 untuk oled 128x64, download firmware
 # Flashing firmware
 
 ## Tipe revisi firmware dp3000
