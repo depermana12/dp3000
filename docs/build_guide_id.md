@@ -53,7 +53,11 @@ oled_write_raw_P(dp3000_logo, sizeof(dp3000_logo));
  ```
 4. compile dan flash
 
-Atau silahkan langsung flash firmware dp3000 untuk oled 128x64, download firmware
+Atau silahkan langsung flash firmware dp3000 untuk oled 128x64, [download firmware khusus oled 128x64](https://drive.google.com/drive/folders/1Phvml8fCjT0DUVdHI3QOJoKWOjEaGGep?usp=drive_link)
+
+Ada tambahan beberapa animasi untuk oled_128x64 seperti contoh bongo cat dll.
+
+![dp3000](https://i.imgur.com/yOeAUYdh.jpg)
 # Flashing firmware
 
 ## Tipe revisi firmware dp3000
