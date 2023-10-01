@@ -43,9 +43,10 @@ Ada 6 lembar akrilik yang akan ditumpuk, urutan pertama dimulai dari kiri atas s
 
 dp3000 secara bawaan mendukung display oled berukuran 128x32. Pengguna dapat mengganti modul oled bawaan ke oled ukuran 128x64, perubahan yang diperlukan :
 
-1. penyolderan pin header female tipe bulat pada pcb dp3000, dan menggunakan pin bekas dioda atau yang seukuran pada pin oled, sehingga level ketinggiannya sama seperti oled bawaan
-2. tambahkan kode `#define OLED_DISPLAY_128X64` pada `config.c` 
-3. pada `dp3000.c` ganti `oled_write_raw_P(dp3000_logo, sizeof(dp3000_logo));` menjadi:
+1. Pastikan modul oled 128x64 punya pinout yang sama, GND, VCC, SCL/SCK, SDA
+2. penyolderan pin header female tipe bulat pada pcb dp3000, dan menggunakan pin bekas dioda atau yang seukuran pada pin oled, sehingga level ketinggiannya sama seperti oled bawaan
+3. tambahkan kode `#define OLED_DISPLAY_128X64` pada `config.c` 
+4. pada `dp3000.c` ganti `oled_write_raw_P(dp3000_logo, sizeof(dp3000_logo));` menjadi:
 
 ```
 oled_set_cursor(0, (oled_max_lines() - 4) / 2);
