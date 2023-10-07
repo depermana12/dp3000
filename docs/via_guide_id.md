@@ -104,3 +104,20 @@ Metode ini akan merekam kombinasi tombol yang ditekan oleh pengguna
 Pengguna dapat memasukan fungsi kode keycode qmk sesuai contoh pada via
 
 ![dp3000 macropad](https://i.imgur.com/mhaOZPZh.jpg)
+
+## Macro buka app
+
+Pengguna dapat membuat makro untuk membuka aplikasi spesifik. Cara ini menggunakan shortcut key yang ditempelkan ke aplikasi, dan macro via menggunakan shortcut key tersebut untuk membuka aplikasi.
+
+1. Pengguna harus membuat shortcut key aplikasi
+
+
+https://github.com/depermana12/dp3000/assets/28618836/631b59ea-c8a3-4074-a2fc-ed78b944b77b
+
+
+2. Pengguna membuat macro pada via menggunakan macro recorder, kemudian masukan shortcut key yang sudah dibinding dengan aplikasi
+
+
+https://github.com/depermana12/dp3000/assets/28618836/0c5c954b-eac3-4e96-9dee-aa7475304d08
+
+
