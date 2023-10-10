@@ -1,13 +1,3 @@
-# Daftar isi
-
-- [Daftar isi](#daftar-isi)
-- [Panduan menggunakan VIA](#panduan-menggunakan-via)
-  - [via configurator](#via-configurator)
-  - [Tab alat via configurator](#tab-alat-via-configurator)
-  - [Manual load json](#manual-load-json)
-  - [Mapping rotary encoder](#mapping-rotary-encoder)
-  - [Control RGB lighting](#control-rgb-lighting)
-  - [Macro](#macro)
 
 # Panduan menggunakan VIA
 Normal QMK firmware untuk mapping keymap membutuhkan modifikasi kode keymap.c di dalam build environment atau qmk configurator yang dicompile untuk menghasilkan file hex yang akan diflash. Cara ini cukup sulit dan tidak efisien untuk untuk beberapa pengguna.
@@ -36,7 +26,7 @@ Pastikan terkoneksi internet, dan gunakan browser yang mendukung web hid seperti
 
 4. Pada tampilan di atas, pengguna dapat mengubah langsung setiap key di setiap layer. Jangan lupa juga untuk menambahkan key untuk berpindah layer
 
-## Tab alat via configurator
+## Tab alat configurator
 
 - Tampilan bawaan ada 3 tab, yaitu `CONFIGURE`, `KEY TESTER`, dan `SETTINGS`. 
 - Tab `DESIGN` dapat diaktifkan dengan menuju tab `SETTINGS` kemudian toggle show design tab
@@ -105,7 +95,7 @@ Pengguna dapat memasukan fungsi kode keycode qmk sesuai contoh pada via
 
 ![dp3000 macropad](https://i.imgur.com/mhaOZPZh.jpg)
 
-## Macro buka app
+## Macro shortcut app
 
 Pengguna dapat membuat makro untuk membuka aplikasi spesifik. Cara ini menggunakan shortcut key yang ditempelkan ke aplikasi, dan macro via menggunakan shortcut key tersebut untuk membuka aplikasi.
 
