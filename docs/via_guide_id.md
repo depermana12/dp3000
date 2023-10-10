@@ -61,6 +61,33 @@ daftar fungsi [keycode qmk](https://docs.qmk.fm/#/keycodes)
 
 ![dp3000 macropad](https://i.imgur.com/6RNFG6Nh.jpg)
 
+## Setting layer switching
+
+![Imgur](https://i.imgur.com/hcUzpdEh.jpg)
+
+
+Secara bawaan dp3000 macropad mendukung 4 layer, dimulai dari 0 sebagai base default layer
+
+Setting pindah layer dapat dilakukan di via dengan mengatur keymap dengan `LAYERS` keycode yang disediakan diatas.
+
+Agar sederhana, pengguna dapat menggunakan basic keycode:
+
+1. ``MO(nomor_layer)`` Momentary Open berfungsi untuk mengaktifkan layer sementara, saat ditekan akan mengaktifkan layer, saat dilepas akan kembali ke layer sebelumnya
+2. ``TO(nomor_layer)`` Turn On berfungsi untuk mengaktifkan layer
+
+Fungsi lengkap dapat dilihat di [QMK docs layer switching](https://docs.qmk.fm/#/feature_layers?id=switching-and-toggling-layers)
+
+![dp3000 macropad](https://i.imgur.com/CVwRCO8h.jpg)
+
+Sebagai contoh gambar diatas adalah default keymap dp3000, berikut penjelasan cara pindah layer:
+
+-  di layer 0 terdapat keycode `` MO(1)`` pada tombol rotary encoder, jadi saat tombol ditekan dan ditahan akan mengaktifkan layer 1
+-  saat ada di layer 1, terdapat keycode untuk mengaktifkan layer ``TO(0)``, ``TO(2)``, ``TO(3)``
+-  jadi saat menahan tombol ``MO(1)`` akan mengaktifkan layer 1, kemudian menekan tombol ``TO(2)``, Anda telah mengaktifkan dan berada pada layer 2
+-  Indikator layer dapat dilihat pada tampilan oled
+
+pengguna bisa mengubah dan mengatur layer switching sesuai kebutuhan dan kreatifitas
+
 ## Control RGB lighting
 
 ![dp3000 macropad](https://i.imgur.com/mpVepRph.jpg)
