@@ -1,8 +1,9 @@
 # DP3000 Macropad
 <img width="150" src="https://i.imgur.com/cgdVpCk.png" alt="dp3000 macropad" title="dp3000 macropad">
 
-dp3000 is a simple yet elegant macropad, embedded with an Atmel 32u4 chip. I created this dev board named dp3000, the first and second letters are my initials and the three digit numbers are just random numbers like i love u 3000.
+dp3000 is a simple yet elegant macropad, integrated ATmega32u4 chip. I created this dev board named dp3000, the first and second letters are my initials and the three digit numbers are just random numbers like i love u 3000.
 
+![DP3000 Macropad](https://i.imgur.com/oGIsWjr.jpg)
 # Features
 + 2x4 (8 keys)
 + dual rotary encoder
@@ -18,7 +19,7 @@ dp3000 is a simple yet elegant macropad, embedded with an Atmel 32u4 chip. I cre
 
 <img width="250" src="https://i.imgur.com/sQ4ibtDh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/syD0cwoh.png" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/vf11E3wh.png" alt="dp3000 macropad" title="dp3000 macropad">
 <img width="250" src="https://i.imgur.com/zyeyvmIh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/Y8gjBzFh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/7isRSlUh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/9Bno4R3h.jpg" alt="dp3000 macropad" title="dp3000 macropad"> 
-<img width="250" src="https://i.imgur.com/woYWa3lh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/pPlGpSOh.jpg" alt="dp3000 macropad" title="dp3000 macropad">
+<img width="250" src="https://i.imgur.com/go161fyh.jpg" alt="dp3000 macropad" title="dp3000 macropad"> <img width="250" src="https://i.imgur.com/5KR0c5Th.jpg" alt="dp3000 macropad" title="dp3000 macropad">
 
 # Getting started
 
