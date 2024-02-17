@@ -13,10 +13,6 @@ Pastikan terkoneksi internet, dan gunakan browser yang mendukung web hid seperti
 
 1. buka alamat [VIA configurator](https://usevia.app/)
 2. klik authorize device, pilih dp3000 lalu klik connect
-
-> - Untuk firmware dp3000 rev1 sudah auto-connect dengan VIA, dapat langsung terdeteksi ketika klik `authorize device`
-> - Untuk firmware dp3000 rev2 masih harus manual load json agar dapat terdeteksi. (auto-connect masih proses, ETA akhir November saat breaking changes q4 qmk)
-> - baca [panduan load json untuk dp3000 rev2](#manual-load-json)
    
 ![dp3000 macropad](https://i.imgur.com/XS7Pe97h.jpg)
 
@@ -25,30 +21,6 @@ Pastikan terkoneksi internet, dan gunakan browser yang mendukung web hid seperti
 ![dp3000 macropad](https://i.imgur.com/TYVrkC7h.jpg)
 
 4. Pada tampilan di atas, pengguna dapat mengubah langsung setiap key di setiap layer. Jangan lupa juga untuk menambahkan key untuk berpindah layer
-
-## Tab alat configurator
-
-- Tampilan bawaan ada 3 tab, yaitu `CONFIGURE`, `KEY TESTER`, dan `SETTINGS`. 
-- Tab `DESIGN` dapat diaktifkan dengan menuju tab `SETTINGS` kemudian toggle show design tab
-
-![dp3000 macropad](https://i.imgur.com/6lF5fMDh.jpg)
-
-## Manual load json
-Untuk firmware dp3000 rev2 sedang dalam proses untuk dapat auto-connect, karena belum ditambahkan ke official via database (auto-connect ETA akhir november 2023)
-
-Jadi saat ini masih harus manual upload json file dp3000-rev2, file json ini bersisi definisi agar via dapat mengenali macropad dp3000. Pengguna hanya perlu sekali upload saja. Berikut panduannya
-
-1. download file [dp3000-rev2.json](https://drive.google.com/uc?id=1wcIDpMSniR9_wCjKMlnjyhLKqqTzrHiz&export=download)
-2. buka web [https://usevia.app](https://usevia.app/)
-3. Pada tab `SETTINGS` toggle untuk mengaktifkan **Show Design tab**
-
-![dp3000 macropad](https://i.imgur.com/ei5MmHch.jpg)
-
-4. menuju tab `DESIGN` klik load untuk mengupload file dp3000-rev2.json
-
-![dp3000 macropad](https://i.imgur.com/53dmCSch.jpg)
-
-5. setelah terdeteksi, silahkan menuju tab `CONFIGURE` untuk mulai mapping
 
 ## Mapping rotary encoder
 
