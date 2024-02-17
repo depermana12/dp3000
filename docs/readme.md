@@ -36,11 +36,9 @@ source code qmk terlampir
 
 compiled .hex yang tinggal flash jg ada
 
-Sejak artikel ini dibuat, firmware rev1 sudah merged dengan repo qmk dan via
+firmware rev1 dan rev 2 sudah merged dengan repo qmk dan via
 
-jadi sudah auto-detect untuk via rev1
-
-versi lainnya menyusul...
+jadi sudah auto-detect untuk digunakkan langsung lewat web https://usevia.app
 
 pcb juga mendukung untuk dimodif, hotswap socket bisa diganti ke varian choc socket
 
